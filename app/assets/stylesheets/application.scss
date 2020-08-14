@@ -11,3 +11,17 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// Setup of navbar, body and footer
+.html, body{
+    height: 100%;
+}
+
+.body {
+    background-color: whitesmoke;
+}
+
+.main_container{
+    min-height: 100%;
+    position: relative;
+}
