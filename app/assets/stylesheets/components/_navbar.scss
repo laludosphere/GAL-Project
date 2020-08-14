@@ -1,6 +1,27 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: darkgrey;
+  height: 70px;
+}
+
+.project_name {
+  color:grey;
+  margin: 10px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-navbar {
+  border-radius: 8px;
+  margin-right: 50px;
+  height: 40px;
+}
+
+.dropdown-item-navbar{
+
 }
 
 .navbar-lewagon .navbar-collapse {
