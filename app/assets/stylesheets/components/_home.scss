@@ -1,0 +1,67 @@
+.search_criterias {
+    text-align: center;
+    margin-top: 50px
+}
+
+.inputs_group {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search_btn{
+    width: 50px;
+    border-radius: 8px;
+}
+
+.top_projects {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card-product {
+    overflow: hidden;
+    height: 120px;
+    width: 600px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+.card-product img {
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+}
+  
+.card-product h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+  
+.card-product p {
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: .7;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+  
+.card-product .card-product-infos {
+    padding: 16px;
+}
+
+.project_cards_group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.more_projects_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
