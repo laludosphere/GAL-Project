@@ -1,0 +1,42 @@
+.footer {
+    background-color: black;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}  
+
+.project_name_slogan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    color: white;
+    margin-top: 90px;
+}
+
+.footer-links {
+    position: absolute;
+    right: 300px;
+    top: 60px;
+}
+
+.network_icon1 {
+    margin: 10px;
+}
+
+.network_icon2 {
+    margin: 10px;
+}
+
+.network_icon3 {
+    margin: 10px;
+}

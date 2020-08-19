@@ -1,12 +1,19 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: darkgrey;
+  background: black;
   height: 70px;
 }
 
+.logo {
+  min-height: 70px;
+  min-width: 70px;
+}
+
 .project_name {
-  color:grey;
+  color:white;
   margin: 10px;
+  position: absolute;
+  left: 920px;
 }
 
 .nav-item {
