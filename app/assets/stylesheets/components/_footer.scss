@@ -1,12 +1,12 @@
 .footer {
-    background-color: black;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000);
     height: 140px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
 }  
@@ -40,3 +40,4 @@
 .network_icon3 {
     margin: 10px;
 }
+
