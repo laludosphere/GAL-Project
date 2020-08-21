@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "/profile", to: "profile#show"
   
   resources :projects
+  resources :applicants
 end

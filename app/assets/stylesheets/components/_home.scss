@@ -12,6 +12,9 @@
 .search_btn{
     width: 50px;
     border-radius: 8px;
+    background-color: #4682B4;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .top_projects {
@@ -63,7 +66,11 @@
 .more_projects_btn {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 850px;
+    align-items: end;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #4682B4;
+    color: whitesmoke;
 }
