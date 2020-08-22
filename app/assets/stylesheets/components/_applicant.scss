@@ -16,6 +16,7 @@
     linear-gradient(to top right,
     #5cabff, #000);
     margin-bottom: 60px;
+    margin-top: 120px;
 }
 
 .applicant_photo {
@@ -51,4 +52,15 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.search_rectangle {
+    background-image: linear-gradient(to top right, #5cabff, #000);
+    height: 80px;
+    width: 1200px;
+    position: absolute;
+    left: 370px;
+    border-radius: 8px;
 }

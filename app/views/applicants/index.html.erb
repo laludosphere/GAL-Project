@@ -1,10 +1,22 @@
  <h2 class="search_results_title"> Résultat de votre recherche </h2>
 
+<div class="search_rectangle">
+<div class="inputs_group">
+    <input type="search" class="input-navbar" placeholder="Langages de programmation">
+    <input type="search" class="input-navbar" placeholder="Années d'expériences">
+    <input type="search" class="input-navbar" placeholder="Diplômes">
+    <%= link_to applicants_path do %>
+    <input type="button" class="search2_btn" value="Go!">
+    <% end %>
+</div>
+</div>
+
 <div class="applicant_cards-group">
 <div class="applicant_card">
   <div class="info_place_btn">
   <%# le btn "en savoir plus doit renvoyer vers la page infos du candidat selectionné"%>
-       <input type="button" class="applicant_infos_access_btn" value="En savoir plus!">
+  
+<%= link_to 'En savoir plus', applicants_show_path, class: "applicant_infos_access_btn" %>
     </div>
     <div class="applicant_photo">
     PHOTO
@@ -22,7 +34,7 @@
 
  <div class="applicant_card">
     <div class="info_place_btn">
-        <input type="button" class="applicant_infos_access_btn" value="En savoir plus!">
+        <%= link_to 'En savoir plus', applicants_show_path, class: "applicant_infos_access_btn" %>
     </div>
    <div class="applicant_photo">
     PHOTO
@@ -40,7 +52,7 @@
 
 <div class="applicant_card">
     <div class="info_place_btn">
-        <input type="button" class="applicant_infos_access_btn" value="En savoir plus!">
+        <%= link_to 'En savoir plus', applicants_show_path, class: "applicant_infos_access_btn" %>
     </div>
     <div class="applicant_photo">
     PHOTO
