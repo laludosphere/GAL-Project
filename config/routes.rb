@@ -5,5 +5,4 @@ Rails.application.routes.draw do
   get "/project/:id", to: "project#show"
   
   resources :projects
-  resources :applicants
 end
