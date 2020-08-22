@@ -36,3 +36,18 @@
     text-decoration: none;
 }
 
+// Applicants
+
+.applicant_infos_access_btn {
+    background-color: #5cabff;
+    border-radius: 8px 8px 8px 80px;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.info_place_btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
