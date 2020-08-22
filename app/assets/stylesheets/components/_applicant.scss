@@ -5,18 +5,20 @@
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
+    padding-top: 30px;
+    color: whitesmoke;
 }
 
 .applicant_card {
     height: 450px;
     width: 300px;
-    margin: 20px;
     border-radius: 8px;
     background-image:
     linear-gradient(to top right,
     #5cabff, #000);
     margin-bottom: 60px;
     margin-top: 120px;
+    border: 3px solid whitesmoke;
 }
 
 .applicant_photo {
@@ -63,4 +65,14 @@
     position: absolute;
     left: 370px;
     border-radius: 8px;
+    border: 3px solid whitesmoke
+}
+
+.screen_blue {
+    background-image: linear-gradient(to top right, #5cabff, #000);
+    height: 1000px;
+    width: 1500px;
+    border-radius: 8px;
+    margin-bottom: 200px;
+    margin-left: 200px;
 }
