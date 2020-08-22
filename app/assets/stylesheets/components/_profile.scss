@@ -1,0 +1,78 @@
+.circle1 {
+    position: absolute;
+    left: 810px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    line-height: 300px;
+    text-align: center;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000)
+}
+
+.circle2 {
+    position: absolute;
+    top: 600px;
+    right: 1300px;
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    line-height: 300px;
+    text-align: center;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000)
+}
+
+.circle3 {
+    position: absolute;
+    top: 600px;
+    left: 1300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    line-height: 300px;
+    text-align: center;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000)
+}
+
+.circle4 {
+    position: absolute;
+    left: 810px;
+    top: 1050px;
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+    line-height: 300px;
+    text-align: center;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000)
+}
+
+.circle1 a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.circle2 a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.circle3 a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.circle4 a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.profil_photo {
+    position: absolute;
+    left: 875px;
+    border-radius: 50%;
+    top: 650px;
+    min-height: 200px;
+}

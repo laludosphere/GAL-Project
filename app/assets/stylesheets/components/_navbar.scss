@@ -1,12 +1,15 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: black;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
   height: 70px;
 }
 
 .logo {
-  min-height: 70px;
-  min-width: 70px;
+  max-height: 70px;
+  max-width: 70px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
 }
 
 .project_name {
@@ -27,8 +30,16 @@
   height: 40px;
 }
 
-.dropdown-item-navbar{
+.dropdown-menu {
+  background-image:
+  linear-gradient(to top right,
+  #5cabff, #000);
+  text-align: center;
+  border: 5px solid white;
+}
 
+.dropdown-menu a{
+  color: whitesmoke;
 }
 
 .navbar-lewagon .navbar-collapse {

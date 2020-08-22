@@ -1,10 +1,12 @@
-<h3 class="search_criterias">Commencer votre recherches par critères</h3>
+<h3 class="search_criterias">Commencer votre recherche par critères</h3>
 
 <div class="inputs_group">
     <input type="search" class="input-navbar" placeholder="Langages de programmation">
     <input type="search" class="input-navbar" placeholder="Années d'expériences">
     <input type="search" class="input-navbar" placeholder="Diplômes">
+    <%= link_to applicants_path do %>
     <input type="button" class="search_btn" value="Go!">
+    <% end %>
 </div>
 
 <h3 class="top_projects">Les récents projets de nos <strong>GAL</strong>iens !</h3>
@@ -16,6 +18,9 @@
     <h2>Nom du projet</h2>
     <p>Explications : en quoi consiste le projet ?</p>
   </div>
+  <%= link_to projects_path do %>
+    <input type="button" class="first_card_btn" value="Voir">
+  <% end %>
 </div>
 
 <div class="card-product">
@@ -24,6 +29,7 @@
     <h2>Nom du projet</h2>
     <p>Explications : en quoi consiste le projet ?</p>
   </div>
+    <input type="button" class="first_card_btn" value="Voir">
 </div>
 
 <div class="card-product">
@@ -32,23 +38,10 @@
     <h2>Nom du projet</h2>
     <p>Explications : en quoi consiste le projet ?</p>
   </div>
+    <input type="button" class="first_card_btn" value="Voir">
 </div>
 
-<div class="card-product">
-  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-  <div class="card-product-infos">
-    <h2>Nom du projet</h2>
-    <p>Explications : en quoi consiste le projet ?</p>
-  </div>
-</div>
-
-<div class="card-product">
-  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-  <div class="card-product-infos">
-    <h2>Nom du projet</h2>
-    <p>Explications : en quoi consiste le projet ?</p>
-  </div>
-</div>
-</div>
-<input type="button" class="more_projects_btn" value="Voir plus de projets">
+<%= link_to projects_path do %>
+  <input type="button" class="more_projects_btn" value="Voir plus de projets">
+<% end %>
 
