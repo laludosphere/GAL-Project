@@ -1,0 +1,60 @@
+.profil_photo_infos {
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.infos_container {
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    height: 1000px;
+    width: 1300px;
+    background-image: linear-gradient(to top right, #5cabff, #000);
+    border-radius: 8px;
+}
+
+.img_profil_plcmt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.identity_name {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 80px;
+}
+
+.modif_btn_card {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modif_btn {
+    background-color: #5cabff;
+    border-radius: 8px 8px 8px 80px;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+    width: 100px;
+}
+
+.card_infos_profil {
+    height: 400px;
+    width: 280px;
+    border: 3px solid whitesmoke;
+    margin: 20px;
+}
+
+.card_infos_profil_group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.categories_title {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}

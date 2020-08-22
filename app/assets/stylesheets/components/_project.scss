@@ -1,0 +1,30 @@
+.form_for_new_project {
+    margin: 20px;
+    color: whitesmoke;
+}
+
+.new_project_title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.new_project_container {
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    height: 500px;
+    width: 1300px;
+    background-image: linear-gradient(to top right, #5cabff, #000);
+    border-radius: 8px;
+}
+
+.submit_project {
+    background-color: #5cabff;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 8px;
+    position: absolute;
+    left: 880px;
+    margin-top: 40px;
+}
