@@ -1,9 +1,11 @@
+
 <div class="circle1">
-    <%= link_to "MES INFOS", profile_path %>
+<%# le btn doit renvoyer vers la page "profile/info, je suppose ça va être un truc avec current-user"%>
+    <%= link_to "MES INFOS", profile_info_path %>
 </div>
 
 <div class="circle2">
-    <%= link_to "AVIS RECRUTEURS", profile_path %>
+    <%= link_to "PUBLIER UN PROJET", profile_path %>
 </div>
 
 <div class="circle3">
@@ -11,7 +13,8 @@
 </div>
 
 <div class="circle4">
-    <%= link_to "NEW TEAM PROJECT", profile_path %>
+    <%= link_to "NEW TEAM PROJECT", new_project_path(@project)  %>
 </div>
 
 <%= image_tag "logogal.PNG" , class: "profil_photo"%>
+

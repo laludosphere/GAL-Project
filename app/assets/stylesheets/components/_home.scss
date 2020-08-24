@@ -1,17 +1,23 @@
 .search_criterias {
     text-align: center;
-    margin-top: 50px
+    margin-top: 50px;
+    color: whitesmoke;
 }
 
 .inputs_group {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.input-navbar {
+    border: 3px solid whitesmoke;
 }
 
 .top_projects {
     text-align: center;
     margin-top: 80px;
+    color: whitesmoke ;
 }
 
 .card-product {
@@ -26,6 +32,7 @@
     align-items: center;
     margin-top: 50px;
     color: whitesmoke;
+    border: 3px solid whitesmoke;
 }
   
 .card-product img {

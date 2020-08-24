@@ -1,8 +1,9 @@
-<%= simple_form_for(project) do |f| %>
-  <%= f.input :name %>
-  <%= f.input :code %>
-  <%= f.input :teammate %>
-  <%= f.input :description %>
-  <%= f.submit %>
-<% end %>
-
+<div class="form_for_new_project">
+  <%= simple_form_for(project) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :code %>
+    <%= f.input :teammate %>
+    <%= f.input :description %>
+    <%= f.submit class: "submit_project" %>
+  <% end %>
+</div>
